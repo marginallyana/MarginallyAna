@@ -18,42 +18,69 @@
     <link rel="apple-touch-icon" href="/Resources/Images/Icons/apple-touch-icon.png"><!-- 180×180 -->
     <link rel="manifest" href="/Resources/webmanifest.json">
     <!--Style Sheets-->
+    <link rel="stylesheet" href="/Resources/cssreset.css">
     <link rel="stylesheet" href="/Resources/style.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fira+Code:wght@300..700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="leftnav">
-        <ul>
-        <div>
-            <img src="/Resources/Images/Icons/verbena veneris.svg" alt="Verbena Veneris">
-            <li><a href="">Verbena Veneris</a></li>
+    <nav>
+        <div class="sidenav">
+            <div class="leftnav">
+                <ul>
+                    <a href="">
+                        <div>
+                            <img src="/Resources/Images/Icons/verbena veneris.svg" alt="Verbena Veneris">
+                            <li>Verbena Veneris</a></li>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div>
+                            <img src="/Resources/Images/Icons/sollogo.svg" alt="Solamen Scriptorium">
+                            <li>Solamen Scriptorium</li>
+                        </div>
+                    </a>    
+                    <a href="">
+                        <div>
+                            <img src="/Resources/Images/Icons/github logo.svg" alt="GitHub">
+                            <li>Check My Code</li>
+                        </div>
+                    </a>
+                </ul>
+            </div>
+            <div class="rightnav">
+                <ul>
+                    <a href="">
+                        <div>
+                            <img src="/Resources/Images/Icons/abouticon.svg" alt="About">
+                            <li><a href="">About</a></li>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div>
+                            <img src="/Resources/Images/Icons/skillsicon.svg" alt="Skills">
+                            <li><a href="">Skills</a></li>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div>
+                            <img src="/Resources/Images/Icons/contacticon.svg" alt="Contact">
+                            <li>Contact</li>
+                        </div>
+                    </a>
+                </ul>
+            </div>
         </div>
-        <div>
-            <img src="/Resources/Images/Icons/sollogo.svg" alt="Solamen Scriptorium">
-            <li><a href="">Solamen Scriptorium</a></li>
-        </div>
-        <div>
-            <img src="/Resources/Images/Icons/github logo.svg" alt="GitHub">
-            <li><a href="">Check My Code</a></li>
-        </div>
-        </ul>
     </nav>
-    <nav class="rightnav">
-        <ul>
-            <div>
-                <img src="/Resources/Images/Icons/abouticon.svg" alt="About">
-                <li><a href="">About</a></li>
-            </div>
-            <div>
-                <img src="/Resources/Images/Icons/skillsicon.svg" alt="Skills">
-                <li><a href="">Skills</a></li>
-            </div>
-            <div>
-                <img src="/Resources/Images/Icons/contacticon.svg" alt="Contact">
-                <li>Contact</li>
-            </div>
-        </ul>
-    </nav>
+    <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
     <header>
         <img src="/Resources/Images/Illustrations/headerdecorsmall.svg" alt="">
         <h3 class="jumbotitle">Hi, I'm Ana V.</h3>
@@ -241,15 +268,46 @@
 </body>
 <footer>
     <p>Copyright Ana Varela 2024</p>
-    <nav>
+    <nav class="nav-menu">
         <ul>
-            <li><a href="">Verbena Veneris</a></li>
-            <li><a href="">Solamen Scriptorium</a></li>
-            <li><a href="">Check My Code</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Skills</a></li>
-            <li><a href="">Contact</a></li>
+            <a href="">
+                <div>
+                    <img src="/Resources/Images/Icons/verbena veneris.svg" alt="Verbena Veneris">
+                    <li>Verbena Veneris</a></li>
+                </div>
+            </a>
+            <a href="">
+                <div>
+                    <img src="/Resources/Images/Icons/sollogo.svg" alt="Solamen Scriptorium">
+                    <li>Solamen Scriptorium</li>
+                </div>
+            </a>    
+            <a href="">
+                <div>
+                    <img src="/Resources/Images/Icons/github logo.svg" alt="GitHub">
+                    <li>Check My Code</li>
+                </div>
+            </a>
+            <a href="">
+                <div>
+                    <img src="/Resources/Images/Icons/abouticon.svg" alt="About">
+                    <li><a href="">About</a></li>
+                </div>
+            </a>
+            <a href="">
+                <div>
+                    <img src="/Resources/Images/Icons/skillsicon.svg" alt="Skills">
+                    <li><a href="">Skills</a></li>
+                </div>
+            </a>
+            <a href="">
+                <div>
+                    <img src="/Resources/Images/Icons/contacticon.svg" alt="Contact">
+                    <li>Contact</li>
+                </div>
+            </a>
         </ul>
     </nav>
 </footer>
+<script src="/Resources/script.js"></script>
 </html>

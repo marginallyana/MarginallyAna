@@ -1,0 +1,119 @@
+/* Global Settings */
+
+h1, h2, h3 {
+        font-family: "Abril Fatface", serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #5372C0;     
+}
+
+h4, h5, h6, p, a, li {
+  font-family: "Fira Code", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #5372C0;
+}
+
+/* Large Devices */
+
+/* Menu Settings */
+
+nav li {
+    font-size: x-small;
+    display: grid;
+    padding-bottom: 50px;
+}
+
+.leftnav {
+    display: flex;
+    position: fixed;
+    left: 0;
+    height: 100%;
+    width: 4.5rem;
+    text-align: center;
+    background-color: #EDD9BC;
+    align-items: center;
+    filter: drop-shadow(0.1rem 0.12vw 0.5vw rgba(14, 20, 37, 0.3));
+}
+
+.rightnav {
+    display: flex;
+    position: fixed;
+    right: 0;
+    height: 100%;
+    width: 4.5rem;
+    background-color: #EDD9BC;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    filter: drop-shadow(-0.1rem -0.12vw 0.5vw rgba(14, 20, 37, 0.3));
+}
+
+.hamburger {
+    display: none;
+}
+
+
+
+/* Small Devices */
+
+/* Menu Settings */
+@media only screen and (max-width: 600px) {
+    .sidenav {
+        display: none;
+    }
+
+    .nav-menu {
+        display: flex;
+        position: fixed;
+        left: -100%;
+        top: 0;
+        padding-top: 3rem;
+        flex-direction: column;
+        background-color: #EDD9BC;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);       
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+    
+    .hamburger {
+        display: block;
+        cursor: pointer;
+        position: fixed;
+        right: 0;
+        margin: 3vw;
+        z-index: 5;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(10px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-10px) rotate(-45deg);
+    }
+}
+
+.bar {
+    display: block;
+    width: 40px;
+    height: 3px;
+    margin: 8px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #5372C0;
+    border-radius: 100px;
+}
+

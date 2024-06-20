@@ -1,5 +1,13 @@
 /* Global Settings */
 
+* {
+    box-sizing: border-box;
+} 
+
+img {
+    max-width: 100%;
+}
+
 h1, h2, h3 {
         font-family: "Abril Fatface", serif;
         font-weight: 400;
@@ -13,6 +21,7 @@ h4, h5, h6, p, a, li {
   font-weight: 400;
   font-style: normal;
   color: #5372C0;
+  line-height: 1.5rem;
 }
 
 /* Large Devices */
@@ -54,7 +63,48 @@ nav li {
     display: none;
 }
 
+/* About Section */
 
+.about {
+    display: flex;
+    flex-direction: column;
+    background-color: #EDD9BC;
+    padding-left: 12vw;
+    padding-right: 12vw;
+}
+
+#aboutsmalldecor {
+    display: inline-flex;
+    width: 5rem;
+    margin-top: 0.5rem;
+    margin-left: -1em;
+}
+
+#jumbotitle {
+    font-size: 3em;
+    margin-bottom: 1.5rem;
+    margin-left: 2rem;
+}
+
+.alljobtitles {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.about p {
+    margin-left: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+#aboutlargedecor {
+    width: 20rem;
+    margin-left: 5rem;
+}
+
+#owldecor {
+    height: 16rem;
+    margin-top: -3rem;
+    margin-left: auto;
+}
 
 /* Small Devices */
 
@@ -104,6 +154,10 @@ nav li {
     .hamburger.active .bar:nth-child(3) {
         transform: translateY(-10px) rotate(-45deg);
     }
+
+    #owldecor {
+        display: none;
+    }
 }
 
 .bar {
@@ -117,3 +171,10 @@ nav li {
     border-radius: 100px;
 }
 
+/* Media Querie for large screens
+make 
+#aboutlargedecor {
+    width: 20rem;
+    margin-left: 5rem;
+}
+bigger*/

@@ -13,10 +13,10 @@
     <meta property="og:description" content="Graphic design and web development portfolio.">
     <meta property="og:image" content=".\Resources\Images\Photos\Website_Card_Image.png">
     <!--Favicon-->
-    <link rel="icon" href="\Resources\Images/Icons\favicon.ico" sizes="32x32">
-    <link rel="icon" href="\Resources\Images\Icons\sea_monster_favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="Resources\Images/Icons\favicon.ico" sizes="32x32">
+    <link rel="icon" href="Resources\Images\Icons\sea_monster_favicon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="\Resources\Images\Icons\apple-touch-icon.png"><!-- 180×180 -->
-    <link rel="manifest" href="\Resources\webmanifest.json">
+    <link rel="manifest" href="Resources\webmanifest.json">
     <!--Style Sheets-->
     <link rel="stylesheet" href="cssreset.css">
     <link rel="stylesheet" href="style.css">
@@ -34,13 +34,13 @@
                 <ul>
                     <a href="">
                         <div>
-                            <img src=".\Resources\Images\Icons\verbena veneris.svg" alt="Verbena Veneris">
+                            <img src="Resources\Images\Icons\verbena veneris.svg" alt="Verbena Veneris">
                             <li>Verbena Veneris</a></li>
                         </div>
                     </a>
                     <a href="">
                         <div>
-                            <img src="\Resources\Images\Icons\sollogo.svg" alt="Solamen Scriptorium">
+                            <img src="Resources\Images\Icons\sollogo.svg" alt="Solamen Scriptorium">
                             <li>Solamen Scriptorium</li>
                         </div>
                     </a>    
@@ -56,19 +56,19 @@
                 <ul>
                     <a href="">
                         <div>
-                            <img src="\Resources\Images\Icons\abouticon.svg" alt="About">
+                            <img src="Resources\Images\Icons\abouticon.svg" alt="About">
                             <li><a href="">About</a></li>
                         </div>
                     </a>
                     <a href="">
                         <div>
-                            <img src="/Resources/Images/Icons/skillsicon.svg" alt="Skills">
+                            <img src="Resources\Images\Icons\skillsicon.svg" alt="Skills">
                             <li><a href="">Skills</a></li>
                         </div>
                     </a>
                     <a href="">
                         <div>
-                            <img src="/Resources/Images/Icons/contacticon.svg" alt="Contact">
+                            <img src="Resources\Images\Icons\contacticon.svg" alt="Contact">
                             <li>Contact</li>
                         </div>
                     </a>
@@ -81,117 +81,122 @@
         <span class="bar"></span>
         <span class="bar"></span>
     </div>
-    <header>
-        <img src="Resources\Images\Illustrations\headerdecorsmall.svg">
-        <h3 class="jumbotitle">Hi, I'm Ana V.</h3>
-        <h1 class="abouttitles">A 
-            <div class="alljobtitles">
-                <span class="jobtitle1">Graphic Designer</span>
-                <span class="jobtitle2">Web Developer</span>
-                <span class="jobtitle3">Illustrator</span>
-            </div>
-        </h1>
-        <p>I’ve been creating creating visual narratives for over 9 years, helping spread people’s messages and telling their stories.</p>
-        <img src="/Resources/Images/Illustrations/header_decor_big.svg">           
-        <img src="/Resources/Images/Illustrations/owl.svg">
-    </header>
     <!--About Section-->
-    <section>
+    <header>
+        <div class="about">
+            <img id="aboutsmalldecor" src="Resources\Images\Illustrations\headerdecorsmall.svg">
+            <h3 id="jumbotitle">Hi, I'm Ana V.</h3>
+            <h1>    
+                <div class="alljobtitles">
+                    <p>A</p>
+                    <p class="jobtitle1">Graphic Designer</p>
+                    <p class="jobtitle2">Web Developer</p>
+                    <p class="jobtitle3">Illustrator</p>
+                </div>
+            </h1>
+            <p id="description">And I’ve been creating visual narratives for over 9 years, helping spread people’s messages and telling their stories through designs, illustrations, building websites and social media graphics.</p>
+            <img id="aboutlargedecor" src="Resources\Images\Illustrations\header_decor_big.svg">           
+            <img id="owldecor" src="Resources\Images\Illustrations\owl.svg">
+        </div>
+    </header>
+    <!--Skills-->
+    <div class="skills">
         <h3>Skills</h3>
-        <img src="/Resources/Images/Illustrations/waves.svg">
+        <img src="Resources\Images\Illustrations\waves.svg">
         <div>
-            <img src="/Resources/Images/Icons/graphicdesign_icon.svg" alt="graphic design">
+            <img src="Resources\Images\Icons\graphicdesign_icon.svg" alt="graphic design">
             <p>Graphic Design</p>
         </div>
         <div>
-            <img src="/Resources/Images/Icons/webdev_icon.svg" alt="web development">
+            <img src="Resources\Images\Icons\webdev_icon.svg" alt="web development">
             <p>Web Development</p>
         </div>
         <div>
-            <img src="/Resources/Images/Icons/illustration_icon.svg" alt="illustration">
+            <img src="Resources\Images\Icons\illustration_icon.svg" alt="illustration">
             <p>Illustration</p>
         </div>
+    </div>
     <!--Laguanges and Software Section-->
     <section>
         <h3>Software and Languages</h3>
     <!--Languages Div-->
             <div>
-                <img src="/Resources/Images/Illustrations/solostar1.svg">
+                <img src="Resources\Images\Illustrations\solostar1.svg">
                 <div>
-                    <img src="/Resources/Images/Icons/HTML_icon.svg" alt="html logo">
+                    <img src="Resources\Images\Icons\HTML_icon.svg" alt="html logo">
                     <p>HTML</p>
                 </div>
                 <div>
-                    <img src="/Resources/Images/Icons/css_icon.svg" alt="css logo">
+                    <img src="Resources\Images\Icons\css_icon.svg" alt="css logo">
                     <p>CSS</p>
                 </div>
                 <div>
-                    <img src="/Resources/Images/Icons/JS_icon.svg" alt="JavaScript logo">
+                    <img src="\Resources\Images\Icons\JS_icon.svg" alt="JavaScript logo">
                     <p>JavaScript</p>
                 </div>
-                <img src="/Resources/Images/Illustrations/solostar2.svg">
+                <img src="Resources\Images\Illustrations\solostar2.svg">
             </div>
     <!--Adobe Div-->
             <div>
-                <img src="/Resources/Images/Illustrations/solostar3.svg">
+                <img src="Resources\Images\Illustrations\solostar3.svg">
                 <div>
-                    <img src="/Resources/Images/Icons/PS_icon.svg" alt="Photoshop logo">
+                    <img src="Resources\Images\Icons\PS_icon.svg" alt="Photoshop logo">
                     <p>Photoshop</p>
                 </div>
                 <div>
-                    <img src="/Resources/Images/Icons/illustration_icon.svg" alt="Illustrator logo">
+                    <img src="Resources\Images\Icons\illustration_icon.svg" alt="Illustrator logo">
                     <p>Illustrator</p>
                 </div>
                 <div>
-                    <img src="/Resources/Images/Icons/Id-icon.svg" alt="InDesign logo">
+                    <img src="Resources\Images\Icons\Id-icon.svg" alt="InDesign logo">
                     <p>InDesign</p>
                 </div>
                 <div>
-                    <img src="/Resources/Images/Icons/ru-icon.svg" alt="Premiere Rush logo">
+                    <img src="Resources\Images\Icons\ru-icon.svg" alt="Premiere Rush logo">
                     <p>Premiere Rush</p>
                 </div>
                 <div>
-                    <img src="/Resources/Images/Icons/pr-icon.svg" alt="Premiere Pro logo">
+                    <img src="Resources\Images\Icons\pr-icon.svg" alt="Premiere Pro logo">
                     <p>Premiere Pro</p>
                 </div>
-                <img src="/Resources/Images/Illustrations/crosshatch.svg">
+                <img src="Resources\Images\Illustrations\crosshatch.svg">
             </div>
     <!--Other Software Div-->
             <div>
                 <div>
-                    <img src="/Resources/Images/Icons/figma-icon.svg" alt="Figma logo">
+                    <img src="Resources\Images\Icons\figma-icon.svg" alt="Figma logo">
                     <p>Figma</p>
                 </div>
             <div>
-                <img src="/Resources/Images/Illustrations/sea monster.svg">
+                <img src="Resources\Images\Illustrations\sea monster.svg">
                 <div>
-                    <img src="/Resources/Images/Icons/wordpress-icon.svg" alt="Wordpress logo">
+                    <img src="Resources\Images\Icons\wordpress-icon.svg" alt="Wordpress logo">
                     <p>Wordpress</p>
                 </div>
                 <div>
-                    <img src="/Resources/Images/Icons/github_icon_large.svg" alt="github logo">
+                    <img src="Resources\Images\Icons\github_icon_large.svg" alt="github logo">
                     <p>Github</p>
                 </div>
                 <div>
-                    <img src="/Resources/Images/Icons/cp-icon.svg" alt="Control Panel logo">
+                    <img src="Resources\Images\Icons\cp-icon.svg" alt="Control Panel logo">
                     <p>Control Panel</p>
                 </div>
             </div>  
     </section>
     <!--Referrals Section-->
     <section>
-        <img src="/Resources/Images/Illustrations/referral_verbena.png" alt="referral quote">
-        <img src="/Resources/Images/Illustrations/referral_guille.png" alt="referral quote">
-        <img src="/Resources/Images/Illustrations/crosshatch.svg">
-        <img src="/Resources/Images/Illustrations/star5.svg">
-        <img src="/Resources/Images/Illustrations/solostar3.svg">
-        <img src="/Resources/Images/Illustrations/referral_entrelinhas.png" alt="referral quote">
-        <img src="/Resources/Images/Illustrations/leaves.svg">
+        <img src="Resources\Images\Illustrations\referral_verbena.png" alt="referral quote">
+        <img src="Resources\Images\Illustrations\referral_guille.png" alt="referral quote">
+        <img src="Resources\Images\Illustrations\crosshatch.svg">
+        <img src="Resources\Images\Illustrations\star5.svg">
+        <img src="Resources\Images\Illustrations\solostar3.svg">
+        <img src="Resources\Images\Illustrations\referral_entrelinhas.png" alt="referral quote">
+        <img src="Resources\Images\Illustrations\leaves.svg">
     </section>
     <!--Projects Section-->
     <section>
         <h3>Projects</h3>
-        <img src="/Resources/Images/Illustrations/waves_small.svg">
+        <img src="Resources\Images\Illustrations\waves_small.svg">
     </section>
     <!--Verbena Veneris Section-->
     <section>
@@ -203,17 +208,17 @@
                 <p>Verbena Veneris is a small business that provides homemade tea blends, esoteric goods, coffee, and with it’s sister-brand Isis&Pedro, handcrafted goods.</p>
                 <p>The founder wanted the logo, packaging and accompanying graphics for the brand to show their main concerns and inspirations, without limiting the scope of what they can offer.</p>
             </div>
-            <img src="/Resources/Images/Photos/verbena_bg_img.jpg">
+            <img src="Resources\Images\Photos\verbena_bg_img.jpg">
             <div>
-                <img src="/Resources/Images/Photos/verbena veneris logo 1.png">
+                <img src="Resources\Images\Photos\verbena veneris logo 1.png">
                 <p>Those sources of inspiration were nature, mysticism, and a deep respect for body/mind connection.</p>
                 <p>To represent them, I opted for a selection of flowers commonly used by the brand for tea blends, arranged in a circle, to represent the changes in season, and the cyclical nature of life.</p>
-                <img src="/Resources/Images/Photos/floral pattern final 1.png">
+                <img src="Resources\Images\Photos\floral pattern final 1.png">
             </div>
             <div>
-                <img src="/Resources/Images/Photos/verbenaicon1.png">
+                <img src="Resources\Images\Photos\verbenaicon1.png">
                 <p>Last touches included two custom icons for the healing and magical properties of tea and herbal blend.</p>
-                <img src="/Resources/Images/Photos/verbenaicon2.png">
+                <img src="Resources\Images\Photos\verbenaicon2.png">
                 <p>Work and development of the brand continues with the creation of market banners and other assets as the brand develops.</p>
             </div>
             <a href="https://www.verbenaveneris.pt/">
@@ -225,23 +230,23 @@
     <section>
         <div>
             <h2>Solamen Scriptorium</h2>
-            <img src="/Resources/Images/Illustrations/elephant.svg">
+            <img src="Resources\Images\Illustrations\elephant.svg">
             <div>
                 <p><b>Skills:</b> Brand Design, Web Design, HTML, CSS</p>
                 <p><b>Software:</b> WordPress, Figma, CPanel</p>
                 <p>Solamen Scriptorium is a personal project that focused on creating an online location to share art projects, development of artistic side-projects, and tutorials.</p>
                 <p>I wanted the branding and layout to combine my passions for nature and medieval art, without falling into overly stereotypical depictions, focusing instead on creating a modern, easy to navigate design, with a warm and welcoming aesthetic.</p>
             </div>
-            <img src="/Resources/Images/Photos/solscript_bg_img.png">
+            <img src="Resources\Images\Photos\solscript_bg_img.png">
             <div>
                 <div>
                     <p>As an artist’s website, it could not exist without a gallery that would quickly and clearly display artworks, link to support channels, online store and a newsletter sign-up form.</p>
                 </div>
-                <img src="/Resources/Images/Photos/florence.png">
-                <img src="/Resources/Images/Photos/aurora.png">
+                <img src="Resources\Images\Photos\florence.png">
+                <img src="Resources\Images\Photos\aurora.png">
             </div>
             <div>
-                <img src="/Resources/Images/Photos/blog_img.png">
+                <img src="Resources\Images\Photos\blog_img.png">
                 <p>Another important feature of this website, was the creation of a blog, where project updates, tutorials could be shared and leads could be driven to the website.</p>
                 <p>Navigability was also a big concern, as I find it’s a must-have to make content and information as easy as possible to find on any website.</p>
             </div>
@@ -259,10 +264,10 @@
             <a href="https://github.com/marginallyana">
                 <button>Visit my Github</button>
             </a>
-            <img src="/Resources/Images/Illustrations/birdslady.svg">
-            <img src="Resources/Images/Illustrations/solostar3.svg">
-            <img src="Resources/Images/Illustrations/star4.svg">
-            <img src="/Resources/Images/Illustrations/cooldragon.svg">
+            <img src="Resources\Images\Illustrations\birdslady.svg">
+            <img src="Resources\Images\Illustrations\solostar3.svg">
+            <img src="Resources\Images\Illustrations\star4.svg">
+            <img src="Resources\Images\Illustrations\cooldragon.svg">
         </div>
     </section>
 </body>
@@ -272,37 +277,37 @@
         <ul>
             <a href="">
                 <div>
-                    <img src="/Resources/Images/Icons/verbena veneris.svg" alt="Verbena Veneris">
+                    <img src="Resources\Images\Icons\verbena veneris.svg" alt="Verbena Veneris">
                     <li>Verbena Veneris</a></li>
                 </div>
             </a>
             <a href="">
                 <div>
-                    <img src="/Resources/Images/Icons/sollogo.svg" alt="Solamen Scriptorium">
+                    <img src="Resources\Images\Icons\sollogo.svg" alt="Solamen Scriptorium">
                     <li>Solamen Scriptorium</li>
                 </div>
             </a>    
             <a href="">
                 <div>
-                    <img src="/Resources/Images/Icons/github logo.svg" alt="GitHub">
+                    <img src="Resources\Images\Icons\github logo.svg" alt="GitHub">
                     <li>Check My Code</li>
                 </div>
             </a>
             <a href="">
                 <div>
-                    <img src="/Resources/Images/Icons/abouticon.svg" alt="About">
+                    <img src="Resources\Images\Icons\abouticon.svg" alt="About">
                     <li><a href="">About</a></li>
                 </div>
             </a>
             <a href="">
                 <div>
-                    <img src="/Resources/Images/Icons/skillsicon.svg" alt="Skills">
+                    <img src="Resources\Images\Icons\skillsicon.svg" alt="Skills">
                     <li><a href="">Skills</a></li>
                 </div>
             </a>
             <a href="">
                 <div>
-                    <img src="/Resources/Images/Icons/contacticon.svg" alt="Contact">
+                    <img src="Resources\Images\Icons\contacticon.svg" alt="Contact">
                     <li>Contact</li>
                 </div>
             </a>

@@ -59,7 +59,7 @@ nav li {
 /* Small Devices */
 
 /* Menu Settings */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
     .sidenav {
         display: none;
     }

@@ -15,6 +15,14 @@ h1, h2, h3 {
         color: #5372C0;     
 }
 
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
 h4, h5, h6, p, a, li {
   font-family: "Fira Code", monospace;
   font-optical-sizing: auto;
@@ -94,6 +102,7 @@ nav li {
 .about p {
     margin-left: 2rem;
     margin-bottom: 1.5rem;
+    max-width: 820px;
 }
 
 #aboutlargedecor {
@@ -122,8 +131,10 @@ nav li {
 
 
 #skillsdecor {
-    width: 5em;
-    margin: 0.3em 0 0 1em;
+    position: relative;
+    z-index: 1;
+    height: 2.5em;
+    margin: -1em 0 -2em 1em;
 }
 
 .sectionlist {
@@ -133,24 +144,25 @@ nav li {
     flex-wrap: wrap;
     text-align: center;
     font-size: small;
+    max-width: 840px;
 }
+
 
 .sectionicons {
     padding: 1.5rem;
 }
 
-.sectiontitle {
-    padding: 0 0 3rem 0;
-    z-index: 3;
+.sectionicons img {
+    height: 70px;
 }
 
-#aboutsolostar {
+#skillsmolstar {
     height: 1rem;
     z-index: 1;
     margin: -1em auto auto 26rem; 
 }
 
-#crosshatch {
+#skillcrosshatch {
     height: 3rem;
     z-index: 1;
     margin: -1em auto -2em 26rem;
@@ -159,8 +171,24 @@ nav li {
 #seamonster {
     z-index: 1;
     height: 8em;
-    margin: -1.5em auto auto -2em;
+    margin: -1.5em auto auto -3em;
 }
+
+#referrals {
+    text-align: center;
+}
+
+#referrals img {
+    width: 18rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+#entrelinhas {
+    margin-top: -4rem;
+    position: relative;
+}
+
 
 /* Small Devices */
 
@@ -210,7 +238,8 @@ nav li {
     .hamburger.active .bar:nth-child(3) {
         transform: translateY(-10px) rotate(-45deg);
     }
-
+    
+    /* Sections */ 
     #owldecor {
         display: none;
     }
@@ -222,6 +251,39 @@ nav li {
 
     .section {
         position: relative;
+    }
+
+    .sectionlist {
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+        font-size: small;
+    }
+
+    #skillstar {
+        align-self: flex-start;
+        margin-bottom: -2em;
+    }
+
+    #skillcrosshatch {
+        display: none;
+    }
+
+    #skillsmolstar {
+        display: none;
+    }
+
+    #skillmidthinstar{
+        align-self: flex-end;
+    }
+
+    #seamonster {
+        z-index: 1;
+        height: 8em;
+        margin: -1.5em auto auto -6em;
     }
 
 }

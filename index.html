@@ -29,22 +29,22 @@
 </head>
 <body>
     <nav>
-        <div class="sidenav">
+       <!-- <div class="sidenav"> -->
             <div class="leftnav">
                 <ul>
-                    <a href="">
+                    <a href="#verbenaveneris">
                         <div>
                             <img src="Resources\Images\Icons\verbena veneris.svg" alt="Verbena Veneris">
                             <li>Verbena Veneris</a></li>
                         </div>
                     </a>
-                    <a href="">
+                    <a href="#solamenscriptorium">
                         <div>
                             <img src="Resources\Images\Icons\sollogo.svg" alt="Solamen Scriptorium">
                             <li>Solamen Scriptorium</li>
                         </div>
                     </a>    
-                    <a href="">
+                    <a href="#githubsection">
                         <div>
                             <img src="Resources\Images\Icons\github logo.svg" alt="GitHub">
                             <li>Check My Code</li>
@@ -54,21 +54,21 @@
             </div>
             <div class="rightnav">
                 <ul>
-                    <a href="">
+                    <a href="#about">
                         <div>
                             <img src="Resources\Images\Icons\abouticon.svg" alt="About">
                             <li><a href="#about">About</a></li>
                         </div>
                     </a>
-                    <a href="">
+                    <a href="#skills">
                         <div>
                             <img src="Resources\Images\Icons\skillsicon.svg" alt="Skills">
-                            <li><a href="">Skills</a></li>
+                            <li><a href="skills">Skills</a></li>
                         </div>
                     </a>
-                    <a href="">
+                    <a href="https://www.linkedin.com/in/ana-varela-10482330b/">
                         <div>
-                            <img src="Resources\Images\Icons\contacticon.svg" alt="Contact">
+                            <img id="contactbunny" src="Resources\Images\Icons\contacticon.svg" alt="Contact">
                             <li>Contact</li>
                         </div>
                     </a>
@@ -82,8 +82,8 @@
         <span class="bar"></span>
     </div>
     <!--About Section-->
-    <header id="about">
-        <div class="about">
+    <header>
+        <div id="about">
             <img id="aboutsmalldecor" src="Resources\Images\Illustrations\headerdecorsmall.svg">
             <h3 id="jumbotitle">Hi, I'm Ana V.</h3>
             <h1>    
@@ -94,13 +94,18 @@
                     <p class="jobtitle3">Illustrator</p>
                 </div>
             </h1>
-            <p id="description">And I’ve been creating visual narratives for over 9 years, helping spread people’s messages and telling their stories through designs, illustrations, building websites and social media graphics.</p>
-            <img id="aboutlargedecor" src="Resources\Images\Illustrations\header_decor_big.svg">           
+            <div id="abouttext">
+                <p>Titles aside, I'm a creative problem solver, who’s passionate about visual communication and helping people share their stories.</p>
+                <p>I’ve been working as a freelance illustrator and graphic designer since 2015, and in 2022, extended my skill-set to web development, adding another tool to my belt, that allows me to take an idea, and grow it from concept to finished product.</p>
+                <p>Curious, excited, always willing to learn and find solutions, working with me is working with someone who loves to communicate and help others.</p>
+                <p>Want to know more, or work together? <span id="CTA">Reach out</span> for a quick reply!</p>
+            </div>
+                <img id="aboutlargedecor" src="Resources\Images\Illustrations\header_decor_big.svg">           
             <img id="owldecor" src="Resources\Images\Illustrations\owl.svg">
         </div>
     </header>
     <!--Skills-->
-    <div class="sectiontitle">
+    <div id="skills" class="sectiontitle">
         <h2>Skills</h2> 
         <img id="skillsdecor" src="Resources\Images\Illustrations\waves.svg">
     </div>
@@ -206,9 +211,10 @@
             <img src="Resources\Images\Illustrations\waves_small.svg">
         </div>
     <!--Verbena Veneris Section-->
+    <section id="verbenaveneris">
         <h2 class="sectiontitle">Verbena Veneris</h2>
-        <div class="projectcontainer"> 
-            <div class="description1">
+        <div id="projectcontainer1"> 
+            <div id="description1">
                 <p><b>Skills:</b> Graphic Design, Brand Identity, Illustration</p>
                 <p><b>Software:</b> Adobe Illustrator, Adobe Photoshop</p>
                 <br>
@@ -216,7 +222,7 @@
                 <p>The founder wanted the logo, packaging and accompanying graphics for the brand to show their main concerns and inspirations, without limiting the scope of what they can offer.</p>
             </div>
             <img id="verbenaphoto" src="Resources\Images\Photos\verbena_bg_img.jpg" alt="product photo">
-            <div class="description2">
+            <div id="description2">
                 <img id="verbenalogo" src="Resources\Images\Photos\verbena veneris logo 1.png">
                 <p>Those sources of inspiration were nature, mysticism, and a deep respect for body/mind connection.</p>
                 <p>To represent them, I opted for a selection of flowers commonly used by the brand for tea blends, arranged in a circle, to represent the changes in season, and the cyclical nature of life.</p>
@@ -224,7 +230,8 @@
                 <p>To compliment the decorative nature of the logo, an intricate floral pattern was created, to adorn the book-marker style labels, reusable boxes and re-sealable paper bags.</p>
                 <img id="verbenapattern" src="Resources\Images\Photos\floral pattern final 1.png">
             </div>
-            <div class="description3">
+            <img id="verbenaphoto2" src="Resources/Images/Photos/verbenatable.jpg" alt="photo of market table">
+            <div id="description3">
                 <img id="verbenaicon1" src="Resources\Images\Photos\verbenaicon1.png">
                 <p>Last touches included two custom icons for the healing and magical properties of tea and herbal blend.</p>
                 <img id="verbenaicon2" src="Resources\Images\Photos\verbenaicon2.png">
@@ -236,36 +243,39 @@
         </div>
     </section>
     <!--Solamen Scriptorium Section-->
-    <section>
-        <div>
-            <h2>Solamen Scriptorium</h2>
-            <img src="Resources\Images\Illustrations\elephant.svg">
-            <div>
+    <section id="solamenscriptorium">
+        <h2 class="sectiontitle">Solamen Scriptorium</h2>
+        <div id="projectcontainer2">
+            <div id="description4">
+                <img id="elephant" src="Resources\Images\Illustrations\elephant.svg">
                 <p><b>Skills:</b> Brand Design, Web Design, HTML, CSS</p>
                 <p><b>Software:</b> WordPress, Figma, CPanel</p>
+                <br>
                 <p>Solamen Scriptorium is a personal project that focused on creating an online location to share art projects, development of artistic side-projects, and tutorials.</p>
                 <p>I wanted the branding and layout to combine my passions for nature and medieval art, without falling into overly stereotypical depictions, focusing instead on creating a modern, easy to navigate design, with a warm and welcoming aesthetic.</p>
             </div>
-            <img src="Resources\Images\Photos\solscript_bg_img.png">
+            <img id="solscriptimg" src="Resources\Images\Photos\solscript_bg_img.png">
             <div>
-                <div>
+                <div id="description5">
                     <p>As an artist’s website, it could not exist without a gallery that would quickly and clearly display artworks, link to support channels, online store and a newsletter sign-up form.</p>
                 </div>
+            <div id="minigallery">
                 <img src="Resources\Images\Photos\florence.png">
                 <img src="Resources\Images\Photos\aurora.png">
             </div>
-            <div>
+            <div id="description6">
                 <img src="Resources\Images\Photos\blog_img.png">
                 <p>Another important feature of this website, was the creation of a blog, where project updates, tutorials could be shared and leads could be driven to the website.</p>
                 <p>Navigability was also a big concern, as I find it’s a must-have to make content and information as easy as possible to find on any website.</p>
+                <a href="https://www.solamenscriptorium.com/">
+                    <button>Visit the Website</button>
+                </a>
             </div>
-            <a href="https://www.solamenscriptorium.com/">
-                <button>Visit the Website</button>
-            </a>
         </div>
     </section>
-    <!--Check My Code Section-->
-    <section>
+    <!--Github Section-->
+    <h2 class="sectiontitle">Check My Code</h2>
+    <section id="githubsection">
         <div>
             <p>Other projects are currently being developed and will become a part of this portfolio soon!</p>
             <p>In the meantime, I invite you head on over o GitHub and check their development, and the code structure for this website.</p>
@@ -273,48 +283,44 @@
             <a href="https://github.com/marginallyana">
                 <button>Visit my Github</button>
             </a>
-            <img src="Resources\Images\Illustrations\birdslady.svg">
-            <img src="Resources\Images\Illustrations\solostar3.svg">
-            <img src="Resources\Images\Illustrations\star4.svg">
-            <img src="Resources\Images\Illustrations\cooldragon.svg">
+            <img id="birdlady" src="Resources\Images\Illustrations\birdslady.svg">
+            <img id="cooldragon" src="Resources\Images\Illustrations\cooldragon.svg">
+            <img id="githubdropstar" src="Resources\Images\Illustrations\star4.svg">
         </div>
     </section>
-</body>
-<footer>
-    <p>Copyright Ana Varela 2024</p>
     <nav class="nav-menu">
         <ul>
-            <a href="">
+            <a href="#verbenaveneris">
                 <div>
                     <img src="Resources\Images\Icons\verbena veneris.svg" alt="Verbena Veneris">
                     <li>Verbena Veneris</a></li>
                 </div>
             </a>
-            <a href="">
+            <a href="#solamenscriptorium">
                 <div>
                     <img src="Resources\Images\Icons\sollogo.svg" alt="Solamen Scriptorium">
                     <li>Solamen Scriptorium</li>
                 </div>
             </a>    
-            <a href="">
+            <a href="#githubsection">
                 <div>
                     <img src="Resources\Images\Icons\github logo.svg" alt="GitHub">
                     <li>Check My Code</li>
                 </div>
             </a>
-            <a href="">
+            <a href="#about">
                 <div>
                     <img src="Resources\Images\Icons\abouticon.svg" alt="About">
                     <li><a href="">About</a></li>
                 </div>
             </a>
-            <a href="">
+            <a href="#skills">
                 <div>
                     <img src="Resources\Images\Icons\skillsicon.svg" alt="Skills">
                     <li><a href="">Skills</a></li>
                 </div>
             </a>
-            <a href="">
+            <a href="https://www.linkedin.com/in/ana-varela-10482330b/">
                 <div>
                     <img src="Resources\Images\Icons\contacticon.svg" alt="Contact">
                     <li>Contact</li>
@@ -322,6 +328,11 @@
             </a>
         </ul>
     </nav>
+</body>
+<footer>
+    <img id="footersmolstart" src="Resources\Images\Illustrations\solostar3.svg">
+    <p>Copyright Ana Varela 2024</p>
+    <a href="#about"><p id="backtotop">Back to Top</p></a>
 </footer>
 <script src="script.js"></script>
 </html>

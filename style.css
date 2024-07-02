@@ -422,11 +422,10 @@ nav li {
     flex-flow: column wrap;
     align-items: center;
     justify-items: center;
-    position: relative;
-    z-index: 1;
     position: sticky;
     top: 0;
-    padding: 3%;
+    z-index: 5;
+    padding: 3% 3% 5% 3%;
 }
 
 #githubsection p {
@@ -470,6 +469,7 @@ footer {
     display: flex;
     flex-direction: column;
     position: relative;
+    z-index: 5;
     padding: 3%;
     align-items: center;
     transition-duration: 0.3s;
@@ -1143,6 +1143,4 @@ footer {
     }
 
 }
-
-/* Contact Form */
 

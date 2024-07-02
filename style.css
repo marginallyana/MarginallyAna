@@ -977,7 +977,7 @@ footer {
         padding-bottom: 10%;
     }
 
-    #contactbunny {
+    .contactbunny {
         width: 40%;
     }
 
@@ -1143,3 +1143,6 @@ footer {
     }
 
 }
+
+/* Contact Form */
+

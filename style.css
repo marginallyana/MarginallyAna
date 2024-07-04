@@ -179,9 +179,9 @@ nav li {
     position: sticky;
     top: 0;
     margin-left: 5%;
-    margin-top: 2%;
     padding-bottom: 8px;
     padding-left: 25px;
+    padding-top: 2%;
     z-index: 3;
 }
 

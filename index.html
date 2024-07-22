@@ -65,8 +65,8 @@
                             <img src="Resources\Images\Icons\skillsicon.svg" alt="Skills">
                             <li>Skills</li>
                         </div>
-                    </a>
-                        <div id="show-popup" class="contactbunny">
+                    </a href="https://www.linkedin.com/in/ana-varela-10482330b/" target="_blank">
+                        <div class="contactbunny">
                             <img src="Resources\Images\Icons\contacticon.svg" alt="Contact">
                             <li>Contact</li>
                         </div>
@@ -88,17 +88,14 @@
             <h3 id="jumbotitle">Hi, I'm Ana V.</h3>
             <h1>    
                 <div class="alljobtitles">
-                    <p>A</p>
-                    <p class="jobtitle1">Graphic Designer</p>
-                    <p class="jobtitle2">Web Developer</p>
-                    <p class="jobtitle3">Illustrator</p>
+                    <p>A Graphic Designer, Web Developer, Illustrator</p>
                 </div>
             </h1>
             <div id="abouttext">
                 <p>Titles aside, I'm a creative problem solver, who’s passionate about visual communication and helping people share their stories.</p>
                 <p>I’ve been working as a freelance illustrator and graphic designer since 2015, and in 2022, extended my skill-set to web development, adding another tool to my belt, that allows me to take an idea, and grow it from concept to finished product.</p>
                 <p>Curious, excited, always willing to learn and find solutions, working with me is working with someone who loves to communicate and help others.</p>
-                <p>Want to know more, or work together? <span id="CTA">Reach out</span> for a quick reply!</p>
+                <p>Want to know more, or work together? <a href="https://www.linkedin.com/in/ana-varela-10482330b/" target="_blank"><span id="CTA">Reach out</span></a> for a quick reply!</p>
             </div>
                 <img id="aboutlargedecor" src="Resources\Images\Illustrations\header_decor_big.svg">           
             <img id="owldecor" src="Resources\Images\Illustrations\owl.svg">
@@ -253,7 +250,7 @@
                 <p>Solamen Scriptorium is a personal project that focused on creating an online location to share art projects, development of artistic side-projects, and tutorials.</p>
                 <p>I wanted the branding and layout to combine my passions for nature and medieval art, without falling into overly stereotypical depictions, focusing instead on creating a modern, easy to navigate design, with a warm and welcoming aesthetic.</p>
             </div>
-            <img id="solscriptimg" src="Resources\Images\Photos\solscript_bg_img.png">
+            <img id="solscriptimg" src="Resources\Images\Photos\solscript_img.jpg">
             <div>
                 <div id="description5">
                     <p>As an artist’s website, it could not exist without a gallery that would quickly and clearly display artworks, link to support channels, online store and a newsletter sign-up form.</p>
@@ -288,20 +285,25 @@
         </div>
     </section>
     <!--Contact Form-->
+    <div id="show-popup">
     <section id="contactformwrapper">
-        <img id="dragonleft" src="Resources/Images/Illustrations/contactdragon.svg">
-        <img id="dragonright" src="Resources/Images/Illustrations/contactdragon.svg">
+        <div id="dragonwrapper">
+            <img id="dragonleft" src="Resources/Images/Illustrations/contactdragon.svg">
+            <img id="dragonright" src="Resources/Images/Illustrations/contactdragon.svg">
+        </div>
         <form action="">
             <h2>Say Hi!</h2>
             <p>Feel welcome to say hi, send work related queries, ask anything related to me, or any of the projects displayed on this website. If I didn’t cover your reason for contact, contact me about that too!</p>
             <label for="name"><b>Name:</b></label><br>
-            <input type="text" id="name" name="name" placeholder="Enter your name">
+            <input type="text" id="name" name="name" placeholder="Enter your name"><br>
             <label for="email"><b>E-mail:</b></label><br>
-            <input type="text" id="email" name="email" placeholder="Enter your e-mail">
+            <input type="text" id="email" name="email" placeholder="Enter your e-mail"><br>
             <label for="message"><b>Message:</b></label><br>
-            <input type="text" id="message" name="message" placeholder="Message">
+            <textarea rows="6" id="message" placeholder="Enter your message here"></textarea>
+            <input type="submit" value="Send">
         </form>
-    </section>
+        </section>
+    </div>  
     <!--Mobile Menu-->
     <nav class="nav-menu">
         <ul>
